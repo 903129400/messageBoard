@@ -1,0 +1,71 @@
+.body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.board {
+	min-width: 720px;
+	width: 80%;
+}
+.boardHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.commentCard {
+	display: flex;
+	flex-direction: row;
+	min-height: 72px;
+	margin-top: 20px;
+}
+.headImg {
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+	border-radius: 30px;
+}
+.commentContent {
+	border-radius: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	min-width: 600;
+	width: 90%;
+	line-height: 30px;
+	background-color: #f6f9fe;
+}
+.user {
+	display: flex;
+}
+.name {
+	color: blue;
+}
+.comment {
+	display: flex;
+	text-align: left;
+	white-space: pre-wrap;
+}
+.time {
+	margin-left: 10px;
+	color: #a1a1a1;
+	font-size: 14px;
+}
+.sendOut {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+}
+.headImg {
+	background: #c4cad1;
+	height: 50px;
+	width: 50px;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
